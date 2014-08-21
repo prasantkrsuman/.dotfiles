@@ -51,3 +51,5 @@
 	token = fe8439a9cdaca5f74e79879b121c64448065f9fd
 [push]
 	default = simple
+[ghi]
+	token = !security find-internet-password -a kurko -s github.com -l 'ghi token' -w
