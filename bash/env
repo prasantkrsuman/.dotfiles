@@ -1,1 +1,9 @@
-# export EDITOR='mvim -f --nomru -c "au VimLeave * !open -a Terminal"'
+
+export PATH="/opt/boxen/heroku/bin:bin:/opt/boxen/rbenv/shims:/opt/boxen/rbenv/bin:/opt/boxen/ruby-build/bin:/opt/boxen/phantomenv/shims:/opt/boxen/phantomenv/bin:node_modules/.bin:/opt/boxen/nodenv/shims:/opt/boxen/nodenv/bin:/opt/boxen/bin:/opt/boxen/homebrew/bin:/opt/boxen/homebrew/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/opt/X11/bin"
+
+# Boxen
+[ -f /opt/boxen/env.sh ] && source /opt/boxen/env.sh
+
+# Go
+export GOPATH=$HOME/go
+export PATH=$PATH:/opt/boxen/homebrew/opt/go/libexec/bin/:$HOME/go/bin
